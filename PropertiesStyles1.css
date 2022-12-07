@@ -1,0 +1,442 @@
+* {
+    text-align: justify;
+    font-family: garamond;
+    margin: 0px;
+}
+
+/*General*/
+header {
+    margin: 30px;
+    font-size: larger;
+    font-weight: 300;
+}
+
+nav {
+    text-align: center;
+    position: static;
+    margin: 30px;
+}
+
+.subtitle {
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+footer {
+    color: #696a6a;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact-footer {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    margin: 10px;
+}
+
+a {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(30, 30, 50);
+}
+
+ul {
+    line-height: 20px;
+}
+
+label {
+    margin-top: 90px;
+    padding-top: 70px;
+}
+
+input {
+    margin: 10px;
+    font-size: larger;
+}
+
+textarea {
+    position: static;
+    padding: 12px;
+    margin: 4px;
+    box-sizing: border-box;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.top-header {
+    background-color: #689f93;
+    width: 100%;
+    height: fit-content;
+    min-height: 80px;
+    color: rgb(30, 30, 50);
+    font-weight: 600;
+}
+
+.img-head {
+    position: absolute;
+    margin: 10%;
+    margin-left: 200px;
+}
+
+
+/*Home Page*/
+
+
+.presentation {
+    background-image: url("img/presentation.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 300px;
+    padding: 150px;
+    color: #ecf6eb;
+    text-decoration: solid;
+    font-size: larger;
+}
+
+.p-about{
+    text-align:justify;
+    color: #ecf6eb;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.homepage-hr {
+    margin: 30px;
+    border-right-style: 6px;
+    width: 100px;
+    border-color: white;
+    border-top: white;
+    border-radius: 5px;
+}
+
+.homepage-division {
+    margin: 30px;
+    border-right-style: 50px;
+    width: 1000px;
+    border-color: #1a4137;
+    border-top: #1a4137;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agents {
+    margin-top: 30px;
+    margin-left: 20%;
+    text-align: center;
+    width: 700px;
+    font-size: medium;
+}
+
+.mission {
+    margin: 50px;
+    text-align: justify;
+}
+
+.mission-p {
+    margin: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    background-color: #f3b36b;
+    height: 100px;
+    padding: 40px;
+}
+
+.recentProjects {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.recentProjects-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: ;
+    padding: 10px;
+    margin-left: 60px;
+    gap: 50px;
+}
+
+.grid-item {
+    background-color: ;
+    border: none;
+    padding: 20px;
+}
+
+.testimonies {
+    flex: content;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    width: 500px;
+
+}
+
+.testimony-name {
+    font-size: medium;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.comments {
+    flex: content;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+    
+}
+
+.comments-p {
+    text-align: justify;
+    font-size: small;
+    margin: 15px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d29999;
+    padding: 10px;
+}
+
+/*Contact Page*/
+.contact-content {
+    background-image: url("img/Contact.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-height: 300px;
+    margin: 40px;
+    padding: 10%;
+
+}
+
+.contact-content-p {
+    text-align: justify;
+    color: #ecf6eb;
+    font-weight: lighter;
+    font-size: larger;
+
+}
+
+.contact-agent {
+    margin: 20px;
+    margin-left: 350px;
+    text-align: justify;
+    background-color: #d29999;
+    width: 700px;
+    padding: 20px;
+}
+
+.hr-contact{
+    margin: 30px;
+    margin-left: 300px;
+    border-right-style: 6px;
+    width: 800px;
+    border-color: rgb(55, 2, 2);
+    border-top: rgb(64, 2, 2);
+    border-radius: 7px;
+}
+
+.contact-form-p {
+    margin: 40px;
+    margin-left: 400px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: lighter;
+    width: 700px;
+}
+
+.Contact-form {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #689f93;
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+.slider {
+    width: 800px;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+
+/*Available Properties*/
+.intro-PropertyListingPages {
+    margin-left: 100px;
+}
+
+.PropertyListingPages-content {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.PropertyListingPages-table {
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.PropertyListingPages {
+    text-align: center;
+}
+
+.card-propertie {
+    color: #ecf6eb;
+    margin: 100px;
+    text-align: center;
+    padding: 50px;
+}
+
+.sub-prop{
+    font-weight: lighter;
+}
+
+
+
+/*Properties general*/
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.location-img {
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.property-table {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+}
+
+.p-property {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: larger;
+    width: 900px;
+}
+
+.hr-properties{
+    margin: 20px;
+    border-right-style: 10px;
+    width: 900px;
+    border-color: white;
+    border-top: white;
+    border-radius: 5px;
+}
+
+
+/*Property 1*/
+.header-property1 {
+    background-image: url("img/slide-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ecf6eb;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+
+/*Property 2*/
+.header-property2 {
+    background-image: url("img/slide-2.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ecf6eb;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+
+/*Property 3*/
+.header-property3 {
+    background-image: url("img/slide-3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ecf6eb;
+    padding-top: 200px;
+    padding-left: 200px;
+
+}
+
+/*Site map*/
+.sitemap_creditsPage-content {
+    margin: 50px;
+}
+
+.sitemap_creditsPage-links {
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    text-emphasis: none;
+    font-weight: 100;
+    vertical-align: top;
+}
+
+.sitemap {
+    margin: 20px;
+    text-align: center;
+}
+
+.sitemap-line {
+    width: 250px;
+    text-align: center;
+}
+
+.subtitle-credits{
+    margin: 20px;
+    text-align: center;
+}
+
+
+/*Credits*/
+.credits-table {
+    margin-left: 220px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.credits-table{
+    text-align: center;
+}
