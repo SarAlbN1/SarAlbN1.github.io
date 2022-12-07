@@ -314,7 +314,7 @@ hr {
     height: auto;
     text-align: center;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .PropertyListingPages {
@@ -338,24 +338,18 @@ hr {
 .pictures {
     display: flex;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: auto;
+    margin-left: 50px;
 }
 
 .location-img {
-    margin-left: 250px;
+    margin-left: 180px;;
     margin-bottom: 20px;
-}
-
-.property-table {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: larger;
 }
 
 .p-property {
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: larger;
