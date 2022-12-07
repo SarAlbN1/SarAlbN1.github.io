@@ -408,11 +408,17 @@ hr {
 /*Site map*/
 .sitemap_creditsPage-content {
     margin: 50px;
+    background-color: #f1afb0;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
 }
 
 .sitemap_creditsPage-links {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     text-emphasis: none;
     font-weight: 100;
@@ -427,21 +433,34 @@ hr {
 .sitemap-line {
     width: 250px;
     text-align: center;
+    border-color: rgb(76, 6, 6);
+    border-top: rgb(76, 6, 6);
 }
 
 .subtitle-credits{
     margin: 20px;
     text-align: center;
+    font-size: large;
 }
-
 
 /*Credits*/
 .credits-table {
     margin-left: 220px;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .credits-table{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.creditsPage-content{
+    margin: 50px;
+    background-color: #bbaff1;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 800;
     text-align: center;
 }
