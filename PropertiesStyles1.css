@@ -338,8 +338,9 @@ hr {
 .pictures {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin-bottom: 30px;
     margin-left: 50px;
+    width: 100%;
 }
 
 .location-img {
