@@ -355,6 +355,8 @@ hr {
     margin-bottom: 50px;
     font-size: larger;
     width: 900px;
+    padding: 50px;
+    background-color: #afd6f1;
 }
 
 .hr-properties{
