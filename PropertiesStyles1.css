@@ -242,8 +242,7 @@ hr {
 }
 
 .contact-agent {
-    margin: 20px;
-    margin-left: 350px;
+    margin: auto;
     text-align: justify;
     background-color: #d29999;
     width: 700px;
@@ -272,6 +271,7 @@ hr {
 .Contact-form {
     margin-left: 10%;
     margin-right: 10%;
+    margin: auto;
     background-color: #689f93;
     text-align: center;
     padding-left: 50px;
