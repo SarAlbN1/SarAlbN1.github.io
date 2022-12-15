@@ -1,0 +1,140 @@
+* {
+    margin: 15px auto;
+    text-align: justify;
+    max-width: 980px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: #84445d;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+body {
+    height: 100px;
+    margin: 15px;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(213, 237, 222);
+    background-color: #551e34;
+    margin-top: 15px;
+}
+
+label {
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=email]{
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=password]{
+    width: 200px;
+    height: 10px;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+input[type=submit] {
+    background-color: #77b69f;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #b97874;
+    color: white;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea {
+    padding: 12px;
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+/*Log in page*/
+.registrationform {
+    margin: auto;
+    margin-top: 100px;
+    padding: 100px;
+    padding-left: 200px;
+    max-width: 700px;
+    max-height: 500px; ;
+    text-align: center;
+    font-size: larger;
+    border: 5px solid rgb(21, 2, 2);
+    border-radius: 4px;
+    margin-bottom: 200px;
+}
+
+/*Final test form*/
+
+fieldset {
+    background-color: #eeeeee;
+    margin: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 5px solid rgb(21, 2, 2);
+    border-radius: 4px;
+}
+
+legend {
+    text-align: left;
+}
+
+
+
+/* Id starts with " # " */
+#Contact {
+    padding: 10px;
+    text-align: center;
+}
+
+/*Class stars with "."*/
+
+.star {
+    color: #c61916;
+    font-size: smaller;
+
+}
+
+
+footer {
+    color: #666666;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    font-size: smaller;
+}

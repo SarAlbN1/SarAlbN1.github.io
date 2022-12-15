@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Test Form</title>
+    <!--By: Sara Albarracin Nino-->
+    <meta charset="utf-8">
+    <link href="FinalTestStylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+
+    <div>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <dl>
+                <dt><label for="Name">Name <span class="star">*</span></label>
+                    <input type="text" id="Name" required="required" placeholder="First Name">
+                    <input type="text" id="LastName" required="required" placeholder="Last Name">
+                </dt>
+                <br>
+                <dt>
+                    <label for="Email">Email: <span class="star">*</span></label>
+                    <input type="email" name="email" id="email" required="required" placeholder="Example@gmail.com">
+                </dt>
+
+                <br>
+
+                <dt>
+                    <label for="Gender"> Gender: <span class="star">*</span></label>
+                    <input type="radio" id="Gender" name="Gender">
+                    <label for="Gender"> Female</label>
+                    <input type="radio" id="Gender" name="Gender">
+                    <label for="Gender"> Male</label>
+                </dt>
+            </dl>
+        </form>
+    </div>
+
+
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>
+               <b> Your interest and hobbies</b><span class="star">*</span>
+            </legend>
+
+            <dl>
+                <dt><input type="checkbox" id="Cycling" name="hobbies">
+                    <label for="HowDifficult"> Cycling</label>
+                </dt>
+                <dt><input type="checkbox" id="Cooking" name="hobbies">
+                    <label for="HowDifficult"> Cooking</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="Gardening" name="hobbies">
+                    <label for="HowDifficult"> Gardening</label>
+                </dt>
+            </dl>
+
+        </fieldset>
+
+        <label for="TrainingCourse"><b>Choose substriptions type</b> <span class="star">*</span></label>
+        <input type="text" name="substriptions" id="substriptions" list="substription">
+        <datalist id="substription">
+            <option>Every week</option>
+            <option>Every two weeks</option>
+            <option>Once a month</option>
+            <option>Once a year</option>
+        </datalist><br>
+        <br>
+        <input type="submit" value="Sign Up"> <input type="Reset" value="Cancel">
+
+    </form>
+</body>
+
+<footer>
+    © Copyright 2022
+    Sara Albarracin- Final Test
+</footer>
+
+</html>
